@@ -13,3 +13,9 @@ if __name__ == '__main__':
 
     # GETTERS
     print(p.name, p.birthday, p.place)
+
+    # SETTERS
+    p.name = 'Mina'  # Muudame "Juhan Tuuga" ära
+    p.birthday = '01.02.0233'  # Anname sünniaja
+    p.place = 'Järvakas'  # Anname elukoha
+    print(p.__str__())

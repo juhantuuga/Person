@@ -32,3 +32,11 @@ class Person:
     @name.setter
     def name(self, value):
         self.__name = value
+
+    @birthday.setter
+    def birthday(self, value):
+        self.__birthday = value
+
+    @place.setter
+    def place(self, value):
+        self.__place = value
